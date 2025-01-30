@@ -1,3 +1,5 @@
+import art
+
 ### HANGMAN Game
 # Note: anywhere you see `pass`, like here:
 pass
@@ -26,6 +28,25 @@ def prompt():
     # Ask player for their guess!
     # You can also check if the guess is a letter here. (optional)
     # Don't forget to `return` the guess!
+    pass
+
+
+# This function prints the hangman art
+# from a list of strings, where each
+# string is a different "stage" of the
+# hangman. The file is in `art.py`
+# if you want to look at it.
+
+## HINT: See the `import art` at the top? Doesn't that
+## remind you of `import random`? So, if you wanted to access
+## something called `PICTURES` from the `art` file in your code,
+## how would you do it?
+
+
+## HINT: We need to print the `hangman` with
+# the right amount of limbs. Maybe we can
+# pass an `argument` to this function?
+def draw_hangman(stage):
     pass
 
 
@@ -92,5 +113,9 @@ def play_hangman():
     print("Thanks for playing!")
 
 
-if __name__ == "__main__":
+def main():
     pass
+
+
+if __name__ == "__main__":
+    main()
